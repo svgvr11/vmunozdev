@@ -1,0 +1,39 @@
+@include media-breakpoint-up(sm) { 
+    .logo {
+        margin-bottom: 50px;
+    }
+ }
+@include media-breakpoint-up(md) {
+    .logo {
+        margin-bottom: 30px;
+    }
+ }
+ 
+ body {
+     background-color: rgb(233, 233, 233);
+ }
+
+.altura {
+    height: 100vh;
+}
+
+.fira-mono-font {
+    font-family: 'Fira Mono', monospace;
+}
+
+.major-mono-font {
+    font-family: 'Major Mono Display', monospace;
+}
+
+.titulo {
+    font-size: 3.3em;
+}
+
+.subtitulo {
+    font-size: 0.5em;
+}
+
+.logo {
+    height: 90px;
+    width: 90px;
+}
