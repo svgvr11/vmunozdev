@@ -1,44 +1,48 @@
-@include media-breakpoint-up(sm) { 
-    .logo {
-        margin-bottom: 50px;
-    }
- }
-@include media-breakpoint-up(md) {
-    .logo {
-        margin-bottom: 30px;
-    }
- }
- 
  body {
-     background-color: rgb(233, 233, 233);
+     background-color: rgb(233, 233, 233) !important;
+     color: #313131 !important;
  }
 
-.altura {
-    height: 100vh;
-}
+ h1 {
+     font-size: 3.3em;
+     font-family: 'Fira Mono', monospace;
+ }
 
-.fira-mono-font {
-    font-family: 'Fira Mono', monospace;
-}
+ h1 span {
+     font-size: 0.5em;
+ }
 
-.major-mono-font {
-    font-family: 'Major Mono Display', monospace;
-}
+ p {
+     font-family: 'Major Mono Display', monospace;
+ }
 
-.titulo {
-    font-size: 3.3em;
-}
+ .btn-box {
+     border-radius: 5px;
+     background-color: rgb(209, 209, 209);
+     height: 95%;
+     padding: 5px;
+     transition: .5s;
+ }
 
-.subtitulo {
-    font-size: 0.5em;
-}
+ .btn-box:hover {
+     background-color: #535353;
+     transform: scale(1.1);
+ }
 
-.logo {
-    height: 90px;
-    width: 90px;
-    cursor: pointer;
-}
+ .icon {
+     padding: 10px;
+     transition: .9s;
+     cursor: pointer;
+ }
 
-.logo-button {
-    background: none;
-}
+ .icon svg {
+     height: 25px;
+     width: 25px;
+     fill: #313131;
+ }
+
+ .icon:hover svg {
+     transition: .9s;
+     transform: scale(1.2);
+     fill: white;
+ }
